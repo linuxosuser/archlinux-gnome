@@ -9,10 +9,6 @@ sudo pacman -S --needed gnome --noconfirm
 sudo pacman -S --needed gnome-tweaks --noconfirm
 sudo pacman -S --needed gnome-terminal --noconfirm
 sudo pacman -S --needed gnome-browser-connector --noconfirm
-
-echo -n '[Install]
-WantedBy=graphical.target' >> /usr/lib/systemd/system/gdm.service
-
 sudo systemctl enable gdm.service
 sudo systemctl set-default graphical.target
 
