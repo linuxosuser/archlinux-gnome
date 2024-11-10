@@ -17,6 +17,7 @@ sudo pacman -S --needed lib32-libpipewire --noconfirm
 sudo pacman -S --needed lib32-pipewire --noconfirm
 sudo pacman -S --needed lib32-pipewire-jack --noconfirm
 sudo pacman -S --needed lib32-pipewire-v4l2 --noconfirm
+sudo pacman -S --needed alsa-utils --noconfirm
 sudo pacman -S --needed alsa-plugins --noconfirm
 sudo pacman -S --needed lib32-alsa-plugins --noconfirm
 sudo pacman -S --needed alsa-lib --noconfirm
