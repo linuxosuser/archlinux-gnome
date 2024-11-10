@@ -37,7 +37,6 @@ sudo pacman -S --needed libdvdcss --noconfirm
 sudo pacman -S --needed firefox --noconfirm
 sudo pacman -S --needed firefox-i18n-hu --noconfirm
 sudo pacman -S --needed firefox-ublock-origin --noconfirm
-sudo pacman -S --needed chromium --noconfirm
 sudo pacman -S --needed qbittorrent --noconfirm
 sudo pacman -S --needed rhythmbox --noconfirm
 sudo pacman -S --needed smplayer --noconfirm
