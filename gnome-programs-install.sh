@@ -51,8 +51,6 @@ sudo pacman -S --needed stress --noconfirm
 sudo pacman -S --needed glmark2 --noconfirm
 sudo pacman -S --needed gnome-screenshot --noconfirm
 sudo pacman -S --needed gnome-power-manager --noconfirm
-sudo pacman -S --needed gedit --noconfirm
-sudo pacman -S --needed gedit-plugins --noconfirm
 sudo pacman -S --needed jre8-openjdk --noconfirm
 sudo pacman -S --needed jdk8-openjdk --noconfirm
 sudo pacman -S --needed p7zip --noconfirm
@@ -109,8 +107,7 @@ sudo pacman -S --needed ttf-inconsolata --noconfirm
 sudo pacman -S --needed ttf-liberation --noconfirm
 sudo pacman -S --needed ttf-roboto --noconfirm
 sudo pacman -S --needed ttf-ubuntu-font-family --noconfirm
-sudo pacman -S --needed arc-gtk-theme --noconfirm
-sudo pacman -S --needed arc-icon-theme --noconfirm
+sudo pacman -S --needed papirus-icon-theme --noconfirm
 sudo pacman -S --needed capitaine-cursors --noconfirm
 sudo pacman -S --needed archlinux-wallpaper --noconfirm
 
