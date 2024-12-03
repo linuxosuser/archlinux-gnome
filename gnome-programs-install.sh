@@ -37,6 +37,8 @@ sudo pacman -S --needed gstreamer-vaapi --noconfirm
 sudo pacman -S --needed libdvdcss --noconfirm
 sudo pacman -S --needed firefox --noconfirm
 sudo pacman -S --needed firefox-i18n-hu --noconfirm
+sudo pacman -S --needed hunspell-en_us --noconfirm
+sudo pacman -S --needed hunspell-hu --noconfirm
 sudo pacman -S --needed firefox-ublock-origin --noconfirm
 sudo pacman -S --needed qbittorrent --noconfirm
 sudo pacman -S --needed rhythmbox --noconfirm
