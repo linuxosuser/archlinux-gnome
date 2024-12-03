@@ -69,6 +69,7 @@ sudo pacman -S --needed fuse --noconfirm
 sudo pacman -S --needed dmidecode --noconfirm
 sudo pacman -S --needed mesa-utils --noconfirm
 sudo pacman -S --needed lib32-mesa-utils --noconfirm
+sudo pacman -S --needed libva-utils --noconfirm
 sudo pacman -S --needed inxi --noconfirm
 sudo pacman -S --needed cups --noconfirm
 sudo pacman -S --needed cups-pdf --noconfirm
