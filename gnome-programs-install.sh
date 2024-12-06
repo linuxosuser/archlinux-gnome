@@ -82,8 +82,13 @@ sudo pacman -S --needed gutenprint --noconfirm
 sudo pacman -S --needed gtk3-print-backends --noconfirm
 sudo pacman -S --needed libcups --noconfirm
 sudo pacman -S --needed system-config-printer --noconfirm
-sudo pacman -S --needed simple-scan --noconfirm
 sudo systemctl enable --now cups.service
+sudo pacman -S --needed sane --noconfirm
+sudo pacman -S --needed sane-airscan --noconfirm
+sudo pacman -S --needed libinsane --noconfirm
+sudo pacman -S --needed colord-sane --noconfirm
+sudo pacman -S --needed sane-gt68xx-firmware --noconfirm
+sudo pacman -S --needed simple-scan --noconfirm
 sudo pacman -S --needed avahi --noconfirm
 sudo pacman -S --needed nss-mdns --noconfirm
 sudo pacman -S --needed gvfs-smb --noconfirm
