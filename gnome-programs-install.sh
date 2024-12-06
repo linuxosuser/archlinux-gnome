@@ -41,6 +41,7 @@ sudo pacman -S --needed hunspell --noconfirm
 sudo pacman -S --needed hunspell-en_us --noconfirm
 sudo pacman -S --needed hunspell-hu --noconfirm
 sudo pacman -S --needed firefox-ublock-origin --noconfirm
+sudo pacman -S --needed curl --noconfirm
 sudo pacman -S --needed qbittorrent --noconfirm
 sudo pacman -S --needed rhythmbox --noconfirm
 sudo pacman -S --needed smplayer --noconfirm
@@ -48,10 +49,6 @@ sudo pacman -S --needed cheese --noconfirm
 sudo pacman -S --needed shotwell --noconfirm
 sudo pacman -S --needed gimp --noconfirm
 sudo pacman -S --needed gimp-help-hu --noconfirm
-sudo pacman -S --needed lm_sensors --noconfirm
-sudo pacman -S --needed psensor --noconfirm
-sudo pacman -S --needed stress --noconfirm
-sudo pacman -S --needed glmark2 --noconfirm
 sudo pacman -S --needed gnome-screenshot --noconfirm
 sudo pacman -S --needed gnome-power-manager --noconfirm
 sudo pacman -S --needed jre8-openjdk --noconfirm
@@ -74,6 +71,11 @@ sudo pacman -S --needed mesa-utils --noconfirm
 sudo pacman -S --needed lib32-mesa-utils --noconfirm
 sudo pacman -S --needed libva-utils --noconfirm
 sudo pacman -S --needed inxi --noconfirm
+sudo pacman -S --needed lm_sensors --noconfirm
+sudo pacman -S --needed psensor --noconfirm
+sudo pacman -S --needed stress --noconfirm
+sudo pacman -S --needed glmark2 --noconfirm
+sudo pacman -S --needed htop --noconfirm
 sudo pacman -S --needed cups --noconfirm
 sudo pacman -S --needed cups-pdf --noconfirm
 sudo pacman -S --needed ghostscript --noconfirm
